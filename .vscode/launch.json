@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Gin Debug",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "${workspaceFolder}/cmd/main.go", // 你的入口文件
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "GIN_MODE": "debug" // 强制开启Gin调试日志
+            },
+            "args": []
+        }
+    ]
+}

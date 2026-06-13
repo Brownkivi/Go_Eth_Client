@@ -1,0 +1,18 @@
+# 服务配置
+server:
+  port: ":8080"
+
+# 以太坊节点配置
+eth:
+  http_rpc: "http://127.0.0.1:8545"
+  ws_rpc: "ws://127.0.0.1:8545"
+  erc20_contract: "0x5FbDB2315678afecb367f032d93F642f64180aa3" # 替换为你本地部署的合约地址
+
+# 日志级别
+log:
+  level: "info"
+
+
+# ABI 配置
+abi:
+  path: "../internal/abi/ERC20.json"
